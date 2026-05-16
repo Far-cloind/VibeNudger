@@ -35,14 +35,21 @@ VibeNudger 是一个多仓库项目，用于采集 Windows 音频会话电平，
 
 ## Demo Slots
 
-Add project media here when ready:
+### Windows Monitor
 
-- Windows monitor screenshot
-- AstroBox plugin settings screenshot
-- Vela device UI photo or GIF
-- End-to-end flow diagram
+[![VibeNudger Windows monitor](https://raw.githubusercontent.com/Far-cloind/VibeNudger-win/develop/screenshot.png)](https://github.com/Far-cloind/VibeNudger-win)
 
-For now, this repository serves as the landing page and setup index for the implementation repositories above.
+### AstroBox Plugin
+
+[![VibeNudger AstroBox plugin](https://raw.githubusercontent.com/Far-cloind/VibeNudger-plugin/main/screenshot.png)](https://github.com/Far-cloind/VibeNudger-plugin)
+
+### Xiaomi Vela App
+
+[![VibeNudger Vela main page](https://raw.githubusercontent.com/Far-cloind/VibeNudger-vela/main/page1.png)](https://github.com/Far-cloind/VibeNudger-vela)
+
+[![VibeNudger Vela waveform page](https://raw.githubusercontent.com/Far-cloind/VibeNudger-vela/main/page2.png)](https://github.com/Far-cloind/VibeNudger-vela)
+
+- Vela demo video: [wearable-app-demo.mp4](https://github.com/Far-cloind/VibeNudger-vela/blob/main/media/wearable-app-demo.mp4)
 
 ## Quick Start
 
