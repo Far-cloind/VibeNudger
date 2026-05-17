@@ -81,43 +81,6 @@ npm run build
 
 Install the generated package onto the target Xiaomi Vela device.
 
-## Compatibility
-
-- Windows host: Windows desktop environment with audio sessions available through the default render device
-- Plugin bridge: AstroBox plugin runtime with access to local HTTP polling and interconnect APIs
-- Device app: Xiaomi Vela quick app environment
-
-Exact device and plugin host compatibility should be documented further as more hardware combinations are validated.
-
-## Current Status
-
-- Windows-side audio session monitoring is implemented
-- Local IPC for session discovery and level sampling is implemented
-- AstroBox bridge forwarding is implemented
-- Xiaomi Vela device-side rendering is implemented
-
-## Release Order
-
-1. Publish `VibeNudger-win`
-2. Publish `VibeNudger-plugin`
-3. Publish `VibeNudger-vela`
-4. Keep this repository as the landing page, overview, and setup guide
-
-## Roadmap
-
-- Add screenshots, demo GIFs, and a full setup walkthrough
-- Improve the Windows app with tray mode, startup registration, and event-driven refresh paths
-- Clarify compatibility for supported AstroBox and Xiaomi Vela environments
-- Add tagged releases and changelogs across all component repositories
-
-## Contributing
-
-Issues and pull requests should normally be opened in the component repository where the actual implementation lives.
-
-- Windows sampling and IPC issues: `VibeNudger-win`
-- AstroBox bridge issues: `VibeNudger-plugin`
-- Device UI and vibration behavior issues: `VibeNudger-vela`
-
 ## License
 
 MIT. See [LICENSE](./LICENSE).

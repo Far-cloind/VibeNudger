@@ -81,43 +81,6 @@ npm run build
 
 将生成的安装包部署到目标小米 Vela 设备。
 
-## 兼容性
-
-- Windows 主机端：支持通过默认渲染设备获取音频会话的 Windows 桌面环境
-- 插件桥接端：支持本地 HTTP 轮询和 interconnect API 的 AstroBox 插件运行环境
-- 设备应用端：小米 Vela 快应用环境
-
-随着更多硬件组合验证完成，兼容性说明还会继续补充。
-
-## 当前状态
-
-- Windows 侧音频会话监控已实现
-- 本地 IPC 会话发现与电平采样已实现
-- AstroBox 桥接转发已实现
-- 小米 Vela 设备端展示已实现
-
-## 发布顺序
-
-1. 发布 `VibeNudger-win`
-2. 发布 `VibeNudger-plugin`
-3. 发布 `VibeNudger-vela`
-4. 保持本仓库作为总入口、说明页和索引页
-
-## 路线图
-
-- 补充截图、演示 GIF 和完整安装说明
-- 为 Windows 应用补充托盘模式、开机启动和更偏事件驱动的刷新路径
-- 进一步明确 AstroBox 与 Xiaomi Vela 的兼容范围
-- 为各个子仓库补充版本发布与变更记录
-
-## 贡献
-
-Issue 和 Pull Request 通常应提交到具体实现所在的子仓库：
-
-- Windows 采样与 IPC 问题：`VibeNudger-win`
-- AstroBox 桥接问题：`VibeNudger-plugin`
-- 设备 UI 与震动反馈问题：`VibeNudger-vela`
-
 ## 许可证
 
 MIT，见 [LICENSE](./LICENSE)。
